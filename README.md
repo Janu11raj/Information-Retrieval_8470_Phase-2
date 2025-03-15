@@ -1,11 +1,11 @@
 # Information-Retrieval_8470_Phase-2
 ## Course Recommender System needs to Consider the Job Market 
 ## Introduction
-This project implements a personalized course recommendation system that considers job market trends to optimize learner skill development. The system integrates Skill Extraction and Matching (SEM) and reinforcement learning-based recommendations using the Advantage Actor-Critic (A2C) model. Unlike traditional approaches, A2C dynamically updates learner profiles, ensuring optimal course recommendations for long-term employability.
+-This project implements a personalized course recommendation system that considers job market trends to optimize learner skill development. The system integrates Skill Extraction and Matching (SEM) and reinforcement learning-based recommendations using the Advantage Actor-Critic (A2C) model. Unlike traditional approaches, A2C dynamically updates learner profiles, ensuring optimal course recommendations for long-term employability.
 ## Installation
-Requires Python 3.10 or higher.
+-Requires Python 3.10 or higher.
 ## Install Dependencies
-pip install -r requirements.txt
+-pip install -r requirements.txt
 ## Usage
 python "/IR A2C/jcrec/pipeline.py" --config "/IR A2C/config/run.yaml"
 ## Configuration File (run.yaml)
