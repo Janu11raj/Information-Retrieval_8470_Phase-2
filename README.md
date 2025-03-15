@@ -34,23 +34,26 @@ seed: 42  # Random seed for reproducibility
 
 ## Description of Source Files (src/)
 ## File	Description
-#### pipeline.py	Main script to train and evaluate models.
-#### Greedy.py	Implements greedy recommendation strategy.
-#### Optimal.py	Implements optimal recommendation strategy.
-#### Reinforce.py	Implements reinforcement learning-based recommendations using A2C.
-#### CourseRecEnv.py	Defines custom reinforcement learning environment using gymnasium.
-#### Dataset.py	Loads and processes resumes, courses, and jobs.
-#### matchings.py	Implements matching, similarity, and relevance functions.
-## Example Training Output (A2C)
-#### Loaded config from: /home/jrajend/IR A2C/config/run.yaml
-#### Using model: a2c
-#### Dataset with 52 learners, 100 jobs, 100 courses and 46 skills.
-#### Running A2C model for run 1/1...
-#### Iteration 5000. Average jobs: 0.923 Time: 0.193 sec
-#### Average Recommendation Time: 0.0029 sec
-#### New Learner Attractiveness Score: 848.17
-#### New Applicable Jobs Per Learner: 0.96
+- [pipeline.py]	Main script to train and evaluate models.
+- [Greedy.py] Implements greedy recommendation strategy.
+- [Optimal.py] Implements optimal recommendation strategy.
+- [Reinforce.py] Implements reinforcement learning-based recommendations using A2C.
+- [CourseRecEnv.py]	Defines custom reinforcement learning environment using gymnasium.
+- [Dataset.py]	Loads and processes resumes, courses, and jobs.
+- [matchings.py]	Implements matching, similarity, and relevance functions.
 
+
+## Example Training Output (A2C)
+```output example
+Loaded config from: /home/jrajend/IR A2C/config/run.yaml
+Using model: a2c
+Dataset with 52 learners, 100 jobs, 100 courses and 46 skills.
+Running A2C model for run 1/1...
+Iteration 5000. Average jobs: 0.923 Time: 0.193 sec
+Average Recommendation Time: 0.0029 sec
+New Learner Attractiveness Score: 848.17
+New Applicable Jobs Per Learner: 0.96
+```
 
 
 
