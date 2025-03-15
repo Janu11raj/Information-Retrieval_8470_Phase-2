@@ -9,8 +9,8 @@ pip install -r requirements.txt
 ## Usage
 python "/IR A2C/jcrec/pipeline.py" --config "/IR A2C/config/run.yaml"
 ## Configuration File (run.yaml)
-### taxonomy_path: IR A2C/data/taxonomy.csv  # Path to taxonomy file-
-### course_path: IR A2C/data/courses.json  # Path to courses file-
+##### taxonomy_path: IR A2C/data/taxonomy.csv  # Path to taxonomy file-
+##### course_path: IR A2C/data/courses.json  # Path to courses file-
 ### cv_path: IR A2C/data/resumes.json  # Path to resumes file
 ### job_path: IR A2C/data/jobs.json  # Path to jobs file
 ### mastery_levels_path: IR A2C/data/mastery_levels.json  # Path to mastery levels
